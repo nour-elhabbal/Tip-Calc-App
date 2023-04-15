@@ -71,7 +71,7 @@ const totalResult = () => {
 
 // script :--
 
-billsAmount.addEventListener("change", (e) => {
+billsAmount.addEventListener("input", (e) => {
   resetBtnFunction();
   bills = e.target.value;
   return bills;
